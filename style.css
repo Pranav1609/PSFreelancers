@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#home {
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    height: 60vh;
+    width: 100%;
+    position: relative;
+}
+
+#home img{
+    padding-top: 50px;
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+}
+
+#Hi {
+    background-color: cyan;
+}
+
+.line {
+    height: 25px;
+    width: 100%;
+}
+
+.menu{
+    text-align: right;
+    position: absolute;
+    z-index: 10;
+    list-style: none;
+}
+
+.menulist {
+    float: left;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.menulist a{
+    color: white;
+    text-decoration: none;
+}
+
+.menulist a:hover{
+    font-weight: bold;
+    text-decoration: none;
+    background-color: purple;
+}
